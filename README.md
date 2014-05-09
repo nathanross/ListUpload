@@ -1,4 +1,6 @@
-#Transfer a shared e-mail to google groups
+#ListUpload
+
+##Transfer a shared e-mail to google groups
 
 If your organization used to use a single e-mail account that was accessed
 by multiple people, but are moving that to a Google Groups account, Google
@@ -21,6 +23,7 @@ The class GroupsMigrationBackend.java is functionally an updated, already
 usable demo of Groups Migration API, in case you aim to develop using Groups
 Migration API.
 
+# Prerequisites
 
 To use this utility, you will need:
 * JDK
@@ -29,10 +32,9 @@ To use this utility, you will need:
 * The e-mail address of the group you wish to move e-mails to.
 * The IMAP details of an e-mail account you wish to transfer e-mails from.
 * A google console project set up in the google api console and it's Oauth
-	secrets file. (step-by-step instructions below)
-*To give permission in your Google Apps Administrator console for 
+	secrets file.
+* To give permission in your Google Apps Administrator console for 
 	that project to access the Groups Migration API for your Google Apps
-	(step-by-step instructions below)
 
 # Build
 
