@@ -23,13 +23,12 @@ Migration API.
 
 
 To use this utility, you will need:
-*JDK
-*Maven
-*A google apps account with a domain
-*The e-mail address of the group you wish to move e-mails to.
-*The IMAP details of an e-mail account you wish to transfer
-*	e-mails from.
-*A google console project set up in the google api console and it's Oauth
+* JDK
+* Maven
+* A google apps account with a domain
+* The e-mail address of the group you wish to move e-mails to.
+* The IMAP details of an e-mail account you wish to transfer e-mails from.
+* A google console project set up in the google api console and it's Oauth
 	secrets file. (step-by-step instructions below)
 *To give permission in your Google Apps Administrator console for 
 	that project to access the Groups Migration API for your Google Apps
